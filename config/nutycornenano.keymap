@@ -56,10 +56,10 @@
 
         row {
             bindings = <
-  &none      &none     &none       &none     &none    &none           &kp PG_UP  &kp UP     &kp PG_DN  &kp BACKSPACE
-  &kp LCTRL  &kp LALT  &kp LSHIFT  &kp LCMD  &kp TAB  &kp LS(LG(S))   &kp LEFT   &kp DOWN   &kp RIGHT  &kp DEL
-  &none      &none     &none       &none     &none    &kp LS(LG(N4))  &kp HOME   &kp LSHFT  &kp END    &kp INS
-  &trans     &trans    &trans      &trans    &trans   &trans          &trans     &trans     &trans     &trans
+  &none      &none     &none       &none     &none    &none     &kp PG_UP  &kp UP     &kp PG_DN  &kp LS(LG(S))
+  &kp LCTRL  &kp LALT  &kp LSHIFT  &kp LCMD  &kp TAB  &kp BSPC  &kp LEFT   &kp DOWN   &kp RIGHT  &kp LS(LG(N4))
+  &none      &none     &none       &none     &none    &kp DEL   &kp HOME   &kp LSHFT  &kp END    &kp INS
+  &trans     &trans    &trans      &trans    &trans   &trans    &trans     &trans     &trans     &trans
             >;
         };
 
