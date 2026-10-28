@@ -38,28 +38,28 @@
 
         default_layer {
             bindings = <
-  &kp Q        &kp W       &kp E             &kp R       &kp T        &kp Y        &kp U       &kp I              &kp O       &kp P
-  &hm LCTRL A  &hm LALT S  &hm LEFT_SHIFT D  &hm LCMD F  &kp G        &kp H        &hm RCMD J  &hm RIGHT_SHIFT K  &hm RALT L  &hm RCTRL SEMI
-  &kp Z        &kp X       &kp C             &kp V       &kp B        &kp N        &kp M       &kp COMMA          &kp DOT     &kp SQT
-  &trans       &trans      &mt LCMD ESC      &mo 3       &lt 1 SPACE  &lt 2 SPACE  &mo 4       &mt RALT ENTER     &trans      &trans
+  &kp Q        &kp W       &kp E          &kp R       &kp T        &kp Y        &kp U       &kp I            &kp O         &kp P
+  &kp A        &kp S       &kp D          &kp F       &kp G        &kp H        &kp J       &kp K            &kp L         &kp SEMI
+  &hm LCTRL Z  &hm LALT X  &hm LSHFT C    &hm LWIN V  &hm TAB B    &hm TAB N    &hm RWIN M  &hm RSHFT COMMA  &hm RALT DOT  &hm RCTRL SQT
+  &trans       &trans      &mt LCTRL ESC  &mo 3       &lt 1 SPACE  &lt 2 SPACE  &mo 4       &mt RALT ENTER   &trans        &trans
             >;
         };
 
         function {
             bindings = <
-  &kp F1     &kp F2    &kp F3      &kp F4    &kp F5   &kp F6   &kp F7    &kp F8     &kp F9    &kp F10
-  &kp LCTRL  &kp LALT  &kp LSHIFT  &kp LCMD  &kp TAB  &kp TAB  &kp RCMD  &kp RSHFT  &kp RALT  &kp RCTRL
-  &kp F8     &kp F9    &kp F10     &kp F11   &kp F12  &none    &none     &none      &none     &none
-  &trans     &trans    &trans      &trans    &trans   &trans   &trans    &trans     &trans    &trans
+  &kp F1     &kp F2    &kp F3     &kp F4    &kp F5   &kp F6   &kp F7    &kp F8     &kp F9    &kp F10
+  &kp F8     &kp F9    &kp F10    &kp F11   &kp F12  &none    &none     &none      &none     &none
+  &kp LCTRL  &kp LALT  &kp LSHFT  &kp LWIN  &kp TAB  &kp TAB  &kp RWIN  &kp RSHFT  &kp RALT  &kp RCTRL
+  &trans     &trans    &trans     &trans    &trans   &trans   &trans    &trans     &trans    &trans
             >;
         };
 
         row {
             bindings = <
-  &none      &none     &none       &none     &none    &none     &kp PG_UP  &kp UP     &kp PG_DN  &kp LS(LG(S))
-  &kp LCTRL  &kp LALT  &kp LSHIFT  &kp LCMD  &kp TAB  &kp BSPC  &kp LEFT   &kp DOWN   &kp RIGHT  &kp LS(LG(N4))
-  &none      &none     &none       &none     &none    &kp DEL   &kp HOME   &kp LSHFT  &kp END    &kp INS
-  &trans     &trans    &trans      &trans    &trans   &trans    &trans     &trans     &trans     &trans
+  &none      &none     &none      &none     &none    &none     &kp PG_UP  &kp UP    &kp PG_DN  &kp LS(LG(S))
+  &none      &none     &none      &none     &none    &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LS(LG(N4))
+  &kp LCTRL  &kp LALT  &kp LSHFT  &kp LWIN  &kp TAB  &kp END   &kp BSPC   &kp INS   &kp DEL    &kp LSHFT
+  &trans     &trans    &trans     &trans    &trans   &trans    &trans     &trans    &trans     &trans
             >;
         };
 
@@ -83,10 +83,10 @@
 
         adjust {
             bindings = <
-  &bt BT_PRV    &bt BT_NXT    &bt BT_CLR_ALL  &bt BT_CLR    &none         &none         &none       &none      &none      &none
-  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &kp C_VOL_UP  &mkp LCLK   &mkp MCLK  &mkp RCLK  &none
-  &none         &none         &none           &none         &none         &kp C_VOL_DN  &kp K_MUTE  &none      &none      &none
-  &trans        &trans        &trans          &trans        &trans        &trans        &trans      &trans     &trans     &trans
+  &bt BT_PRV    &bt BT_NXT    &bt BT_CLR_ALL  &bt BT_CLR    &none         &none   &none         &none       &none         &none
+  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &none   &mkp LCLK     &mkp MCLK   &mkp RCLK     &none
+  &none         &none         &none           &none         &none         &none   &kp C_VOL_UP  &kp K_MUTE  &kp C_VOL_DN  &none
+  &trans        &trans        &trans          &trans        &trans        &trans  &trans        &trans      &trans        &trans
             >;
         };
     };
