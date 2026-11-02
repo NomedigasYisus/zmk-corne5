@@ -56,9 +56,9 @@
 
         row {
             bindings = <
-  &none      &none     &none      &none     &none    &none     &kp PG_UP  &kp UP    &kp PG_DN  &kp LS(LG(S))
-  &kp LCTRL  &kp LALT  &kp LSHFT  &kp LWIN  &kp TAB  &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LS(LG(N4))
-  &none      &none     &none      &none     &none    &kp END   &kp BSPC   &kp INS   &kp DEL    &kp LSHFT
+  &none      &none     &none      &none     &none    &kp INS   &kp PG_UP  &kp UP    &kp PG_DN  &kp LS(LG(S))
+  &kp LCTRL  &kp LALT  &kp LSHFT  &kp LWIN  &kp TAB  &kp BSPC  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LS(LG(N4))
+  &none      &none     &none      &none     &none    &kp DEL   &kp HOME   &kp LSHFT &kp END    &kp LSHFT
   &trans     &trans    &trans     &trans    &trans   &trans    &trans     &trans    &trans     &trans
             >;
         };
